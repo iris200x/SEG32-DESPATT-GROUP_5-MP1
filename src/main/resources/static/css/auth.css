@@ -1,0 +1,137 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; 
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px; 
+}
+
+.icon-container h1 {
+    font-size: 24px;
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label, .form-group input, button[type="submit"] {
+    display: block;
+    width: calc(100% - 20px);
+    margin: auto;
+    box-sizing: border-box; 
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #F59F01;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #F59F01;
+}
+
+a {
+    color: #F59F01;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; 
+}
+
+.login-container, .signup-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.icon-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label, .form-group input, button[type="submit"] {
+    display: block;
+    width: calc(100% - 20px);
+    margin: auto; 
+    box-sizing: border-box;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #F59F01;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #F59F01;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
